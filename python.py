@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def dank():
+def bank():
     a = int(input('Ведите кол-во денег:'))
     years = int(input("Введите кол-во лет:"))
     r = 10
@@ -14,4 +14,4 @@ def dank():
     else:
         print('Введите положительное число!')
 
-dank()
+bank()
