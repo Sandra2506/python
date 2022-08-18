@@ -1,14 +1,6 @@
 #!/usr/bin/python3
-moth = input('Введите название месяца:')
-if moth in ['январь', "март", "май", "июль", "авнуст","октябрь", "декабрь"]:
-    print('31 день')
-elif moth in ['апрель','июнь','сентябрь','ноябрь']:
-    print('30 дней ')
-elif moth == 'февраль':
-    year = input('Год весокосный?:')
-    if year == 'да':
-        rint('29 дней ')
-    else:
-        print('28 дней ')
-else:
-    print('Введите корректное название месяца:')
+import itertools
+s = ['61','288','9']
+for x in itertools.permutations(s):
+    a = ''.join(s)
+    print(a)
