@@ -1,4 +1,6 @@
 #!/usr/bin/python3
-print('Hi world')
-print('Hi world')
-print('Hi world')
+import itertools
+s = ['61','288','9']
+for x in itertools.permutations(s):
+    a = ''.join(s)
+    print(a)
